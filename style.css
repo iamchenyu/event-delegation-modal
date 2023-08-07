@@ -1,0 +1,25 @@
+#modal-container {
+  background-color: rgba(221, 221, 221, 0.5);
+  height: 100vh;
+  width: 100vw;
+  position: absolute;
+  top: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#modal {
+  background-color: chocolate;
+  height: 500px;
+  width: 500px;
+  border-radius: 10%;
+  display: flex;
+  justify-content: end;
+}
+
+#close-btn {
+  margin: 15px 30px 0 0;
+  color: chartreuse;
+  font-size: 25px;
+}
